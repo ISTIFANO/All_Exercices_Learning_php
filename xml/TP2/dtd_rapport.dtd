@@ -1,0 +1,16 @@
+
+<!ELEMENT rapport (etudiant+)>
+<!ELEMENT etudiant (nom, prenom, matieres+)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT matieres (matiere+)>
+<!ELEMENT matiere (nom, note)>
+<!ELEMENT note (#PCDATA)>
+
+
+
+
+
+
+
+<!ATTLIST payment type CDATA "check">

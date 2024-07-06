@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xml" href="wg.xml"?>
+<gdt month="fivrier" year="2004">
+    <expose day="5">
+        <speaker>nickolla tesla</speaker>
+        <title>tesla books</title>
+        <time>12h32</time>
+        <salle>102</salle>
+    </expose>
+</gdt>

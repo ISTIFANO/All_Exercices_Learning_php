@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="..//style.css">
+    <style>
+        .formulaire{
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lien">
+        <a href="./choix.php">Revenir a la page precedente</a>
+    </div>
+    <div class="formulaire">
+        <h1>Téléchargement d'image et redimensionnement</h1>
+        <form action="redimensionner.php" method="POST" enctype="multipart/form-data">
+            Sélectionnez une image : <input type="file" name="image" accept="image/*" required><br><br>
+            Largeur : <input type="number" name="largeur" required><br><br>
+            Hauteur : <input type="number" name="hauteur" required><br><br>
+            <input type="submit" value="Télécharger et Redimensionner">
+        </form>
+    </div>
+</body>
+</html>

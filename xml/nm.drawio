@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="2J2qeAw_Kdvme1_qaILX" name="Page-1">
+        <mxGraphModel dx="513" dy="1527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="110" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="110" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="340" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="300" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="240" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+---------------------+          (1,1)         +---------------------+&#10;            |     Utilisateur     |-----------------------|       Cours         |&#10;            +---------------------+                       +---------------------+&#10;            | ID_utilisateur (PK) |&lt;----------------------| ID_enseignant (FK)  |&#10;            | Nom                 |          (0,N)        | Nom_cours           |&#10;            | Prénom              |----------------------&gt;| Description          |&#10;            | Adresse email       |                       | Niveau              |&#10;            | Mot de passe        |                       +---------------------+&#10;            | Type_utilisateur    |&#10;            +---------------------+&#10;&#10;&#10;                        |  (1,1)&#10;                        |&#10;                        |&#10;                        V&#10;            +---------------------+&#10;            |       Élève         |&#10;            +---------------------+&#10;            | ID_élève (PK)      |&#10;            | ID_parent (FK)      |&#10;            | ID_cours_suivi (FK)|&#10;            +---------------------+&#10;&#10;&#10;                        |  (1,1)&#10;                        |&#10;                        |&#10;                        V&#10;            +---------------------+&#10;            |     Ressources      |&#10;            +---------------------+&#10;            | ID_ressource (PK)   |&#10;            | Nom_ressource       |&#10;            | Type_ressource      |&#10;            | URL_ressource       |&#10;            | ID_cours_associé (FK)|&#10;            +---------------------+&#10;&#10;&#10;                        |  (0,N)&#10;                        |&#10;                        |&#10;                        V&#10;            +---------------------+&#10;            |       Message       |&#10;            +---------------------+&#10;            | ID_message (PK)     |&#10;            | Contenu_message     |&#10;            | Date_message        |&#10;            | ID_utilisateur_expediteur (FK)|&#10;            | ID_utilisateur_destinataire (FK)|&#10;            +---------------------+&#10;&#10;&#10;                        |  (0,N)&#10;                        |&#10;                        |&#10;                        V&#10;            +---------------------+&#10;            |      Événement      |&#10;            +---------------------+&#10;            | ID_événement (PK)   |&#10;            | Nom_événement       |&#10;            | Date_événement      |&#10;            | Description         |&#10;            | ID_utilisateur_organisateur (FK)|&#10;            +---------------------+" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="-540" width="400" height="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="130" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

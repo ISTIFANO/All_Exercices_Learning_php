@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+
+}
+button {
+background-color: #4caf50;
+color: #fff;
+padding: 10px;
+borde: none;
+border-radius: 4px;
+cursor: pointer;
+
+
+
+}
+
+button:hover {
+bakground-color: #ec0000;
+}
+
+
+ 
+input {
+    width:21px;
+    margin-bottom: 10px;
+
+}

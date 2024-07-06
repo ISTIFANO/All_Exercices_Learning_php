@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<librairie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="tr.xsd">
+<livres>
+    <livre>
+        <titre>Titre l1</titre>
+        <auteur> auteur 1</auteur>
+        <prix>20</prix>
+        <date_publication>2024-03-21</date_publication>
+    </livre>
+    <livre>
+        <titre>Titre l2</titre>
+        <auteur>auteur 2</auteur>
+        <prix>20</prix>
+        <date_publication>2022-3-15</date_publication>
+    </livre>
+    
+</livres>
+</librairie>

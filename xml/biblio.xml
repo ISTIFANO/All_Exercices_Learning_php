@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <bibliographie>
+        
+    <livre>
+        <nom>livre</nom>
+        <auteur>rim</auteur>
+        <annee>2024-02-09</annee>
+    </livre>
+    
+    
+        
+    <livre>
+        <nom>livre</nom>
+        <auteur>rim</auteur>
+        <annee>2024-02-01</annee>
+    </livre>
+    
+    
+    <livre>
+        <nom>livre</nom>
+        <auteur>rim</auteur>
+        <annee>2024-02-01</annee>
+    </livre>
+    </bibliographie>

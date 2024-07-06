@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="php1.php" method="POST">
+    
+    <div class="titre">
+        <h1>Calculatrice</h1>
+    </div>
+    <div class="cal">
+        <div class="aff">
+            <p class="p" id="p" name="n"></p><br>
+        </div>
+        
+        <div>
+            <div class="res">
+                <input id="res"type="text" name="s">
+            </div>
+            <div class="btn">
+                <div class="opav">
+                    <input type="button" value="cos" onclick="cos()" id="cos1">
+                    <input type="button" value="tan" onclick="tan()">
+                    <input type="button" value="sqrt" onclick="sqrt()">
+                    <input type="button" value="log" onclick="log()">
+                    <input type="button" value="sup" onclick="sup()">
+                </div>
+                <div class="a1">
+                    <input type="button" value="9"onclick="a(0)" class="bb">
+                    <input type="button" value="8"onclick="a(1)" class="bb">
+                    <input type="button" value="7"onclick="a(2)" class="bb">
+                    <input type="button" value="/"onclick="a(3)" class="bb">
+                    
+
+                </div>
+                <div class="a2">
+                    <input type="button" value="6" onclick="a(4)" class="bb">
+                    <input type="button" value="5" onclick="a(5)" class="bb">
+                    <input type="button" value="4" onclick="a(6)" class="bb">
+                    <input type="button" value="x" onclick="a(7)" class="bb">
+                    
+                </div>
+                <div class="a3">
+                    <input type="button" value="3"onclick="a(8)" class="bb">
+                    <input type="button" value="2"onclick="a(9)" class="bb">
+                    <input type="button" value="1" onclick="a(10)" class="bb">
+                    <input type="button" value="-" onclick="a(11)" class="bb">
+                </div>
+        
+                <div class="submit">
+                    <input type="button" value="0" onclick="a(12)" class="bb">
+                    <input type="button" value="." onclick="a(13)" class="bb">
+                    <input type="submit" value="=" id="b">
+                    <input type="button" value="+" name="plus"  class="bb" onclick="a(14)">
+                </div>
+            </div>
+            <div class="operateur">
+                
+                
+                
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="Titre">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Datep">
+        <xs:restriction base="xs:date">
+            <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Auteur">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="livreType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:integer"/>
+            <xs:element name="titre" type="Titre"/>
+            <xs:element name="auteur" type="Auteur"/>
+            <xs:element name="prix" type="xs:decimal"/>
+            <xs:element name="date_publication" type="Datep"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="livresType">
+        <xs:sequence>
+            <xs:element name="livre" type="livreType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="librairie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="livres" type="livresType" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

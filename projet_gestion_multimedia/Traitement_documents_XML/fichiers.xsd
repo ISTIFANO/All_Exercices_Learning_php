@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- fichiers -->
+  <xs:element name="fichiers">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- fichier -->
+        <xs:element name="fichier" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string"/>
+              <xs:element name="type" type="xs:string"/>
+              <xs:element name="taille" type="xs:integer"/>
+              <xs:element name="date_telechargement" type="xs:string"/>
+            </xs:sequence>
+            <!-- Attribut ID -->
+            <xs:attribute name="id" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- Définition du format de date YYYY-MM-DD HH:MM:SS -->
+  <xs:simpleType name="dateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

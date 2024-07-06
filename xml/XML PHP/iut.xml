@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iut>
+    <etudiant id="1" nom="El amiri">
+        <uv>
+            <nom>Mathématiques</nom>
+            <durée>60 heures</durée>
+            <note>15</note>
+        </uv>
+        <uv>
+            <nom>Informatique</nom>
+            <durée>45 heures</durée>
+            <note>17</note>
+        </uv>
+    </etudiant>
+    <etudiant id="2" nom="Aamir">
+        <uv>
+            <nom>Physique</nom>
+            <durée>50 heures</durée>
+            <note>16</note>
+        </uv>
+        <uv>
+            <nom>Chimie</nom>
+            <durée>40 heures</durée>
+            <note>14</note>
+        </uv>
+    </etudiant>
+</iut>
+<!-- 
+<xs:element name="prix">
+ <xs:complexType>
+ <xs:simpleContent>
+ <xs:extension base="xs:integer">
+ <xs:attribute name="unit" type="xs:string" />
+ </xs:extension>
+ </xs:simpleContent>
+ </xs:complexType> -->

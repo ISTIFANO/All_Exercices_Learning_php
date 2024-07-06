@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="fichiers.xsl" type="text/xsl"?>
+<fichiers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="fichiers.xsd">
+    <fichier id='11'>
+        <nom>Fichier6625737c072b79.73159182</nom>
+        <type>document</type>
+        <taille>17966</taille>
+        <date_telechargement>2024-04-21 21:13:48</date_telechargement>
+    </fichier>
+    <fichier id='9'>
+        <nom>Fichier66253ac7840099.14338050</nom>
+        <type>image</type>
+        <taille>208835</taille>
+        <date_telechargement>2024-04-21 17:11:51</date_telechargement>
+    </fichier>
+    <fichier id='12'>
+        <nom>Fichier662573845cf060.05907776</nom>
+        <type>document</type>
+        <taille>1175602</taille>
+        <date_telechargement>2024-04-21 21:13:56</date_telechargement>
+    </fichier>
+</fichiers>

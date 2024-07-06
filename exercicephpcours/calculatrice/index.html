@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <table>
+        <form action="calculatrice.php" method="post">
+
+
+
+
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="result" name="expression" readonly></td>
+                    <td colspan="2"><input type="reset" value="Effacer" class="submit" onclick="clearParag()"></td>
+
+            </tr>
+            
+            <tr>
+                
+                <td><input type="button" value="sqrt" onclick="Data('sqrt')"></td>
+                <td><input type="button" value="/" onclick="Data('/')"></td>
+                <td><input type="button" value="(" onclick="Data('(')"></td>
+                <td><input type="button" value=")" onclick="Data(')')"></td>
+                
+                <td><input type="button" value="AC" onclick="clearlast()"></td>
+            </tr>
+            <tr>
+                
+                
+                
+            </tr>
+           
+            
+            <tr>
+                
+                <td><input type="button" value="tan" onclick="Data('tan')"></td>
+                <td><input type="button" value="9" onclick="Data('9')"></td>
+                <td><input type="button" value="7" onclick="Data('7')"></td>
+                <td><input type="button" value="8" onclick="Data('8')"></td>
+                
+                <td><input type="button" value="+" onclick="Data('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="log" onclick="Data('log')"></td>
+                <td><input type="button" value="4" onclick="Data('4')"></td>
+                <td><input type="button" value="5" onclick="Data('5')"></td>
+                <td><input type="button" value="6" onclick="Data('6')"></td>
+                
+                
+                <td><input type="button" value="X" onclick="Data('*')"></td>
+            </tr>
+            <tr>
+                
+                <td><input type="button" value="cos" onclick="Data('cos')"></td>
+                <td><input type="button" value="1" onclick="Data('1')"></td>
+                <td><input type="button" value="2" onclick="Data('2')"></td>
+                <td><input type="button" value="3" onclick="Data('3')"></td>
+                <td><input type="button" value="-" onclick="Data('-')"></td>
+                
+                
+               
+                
+                <tr>
+                    <td><input type="button" value="sin" onclick="Data('sin')"></td>
+                    
+                    <td><input type="button" value="." onclick="Data('.')"></td>
+                    <td><input type="button" value="0" onclick="Data('0')"></td>
+                    <td><input type="button" value="PI" onclick="Data('PI')"></td>
+                    <td colspan="2"><input type="submit" value="=" class="submit" onclick="valid()"></td>
+    
+                </tr>
+            </tr>
+        </form>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Style de base pour le corps du document */
+body {
+    font-family: Arial, sans-serif; /* Police de caractères par défaut */
+    margin: 0; /* Supprime les marges par défaut du navigateur */
+    padding: 0; /* Supprime le rembourrage par défaut du navigateur */
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
+/* Style pour le titre */
+h1 {
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+}
+
+/* Style pour le formulaire */
+form {
+    margin: 20px auto; /* Centrer le formulaire horizontalement */
+    width: 80%; /* Largeur du formulaire */
+    max-width: 600px; /* Largeur maximale du formulaire */
+    background-color: #fff; /* Couleur de fond du formulaire */
+    padding: 20px; /* Rembourrage interne du formulaire */
+    border-radius: 8px; /* Bord arrondi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Style pour les étiquettes des champs */
+label {
+    display: block; /* Afficher chaque étiquette sur une ligne */
+    margin-bottom: 10px; /* Marge inférieure entre chaque étiquette */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%; /* Largeur de chaque champ à 100% */
+    padding: 8px; /* Rembourrage interne */
+    margin-bottom: 10px; /* Marge inférieure */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Bord arrondi */
+    box-sizing: border-box; /* Inclure la bordure et le rembourrage dans la largeur */
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+    width: 100%; /* Largeur du bouton à 100% */
+    padding: 10px; /* Rembourrage interne */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 4px; /* Bord arrondi */
+    cursor: pointer; /* Curseur pointeur au survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+}

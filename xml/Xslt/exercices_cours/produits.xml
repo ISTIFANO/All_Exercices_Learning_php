@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="document.xsl" type="text/css"?>
+<produits>
+  <produit>
+    <title>Empire Burlesque</title>
+    <genre>USA</genre>
+    <price>110.90</price>
+  
+  </produit>
+  <produit>
+    <title>Empire Burlesque</title>
+    <genre>USA</genre>
+    <price>1.90</price>
+  
+  </produit>
+</produits>

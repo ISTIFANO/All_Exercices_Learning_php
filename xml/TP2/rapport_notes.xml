@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xsl_rapport.xsl" type="text/xsl"?>
+<rapport>
+    <etudiant> <!-- -->
+        <nom>Aamir</nom>
+        <prenom>Elamiri</prenom>
+        <matieres>
+            <matiere>
+                <nom>Maths</nom>
+                <note>12</note>
+            </matiere>
+            <matiere>
+                <nom>Fr</nom>
+                <note>13</note>
+            </matiere>
+            <matiere>
+                <nom>Ar</nom>
+               
+                <note>14</note>
+            </matiere>
+ 
+        </matieres>
+    </etudiant>
+    
+</rapport>

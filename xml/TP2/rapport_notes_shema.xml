@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="rapport">
+   <xs:complexType>
+<xs:sequence>
+    <xs:element name="etudiant" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+<xs:sequence>
+    <xs:element name="nom" type="xs:string"/>
+    <xs:element name="prenom" type="xs:string"/>
+    <xs:element name="matieres">
+        <xs:complexType>                                                                                                                                                
+<xs:sequence>
+    <xs:element name="matiere" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+<xs:sequence>
+<xs:element name="nom" type="xs:string"/>
+
+  <xs:element name="note" >
+                                                                        <xs:simpleType>
+                                                                  <xs:restriction base="xs:decimal">
+                                                                                            <xs:minInclusive value="0"/>
+                                                                                            <xs:maxInclusive value="20"/>
+                                                      </xs:restriction>
+                                                                            </xs:simpleType>
+    </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+           </xs:element>
+       </xs:sequence>
+   </xs:complexType>
+        </xs:element>
+  </xs:sequence>
+   </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+<!-- Shema version 2 -->
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="matiereT">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="note" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="matieresT">
+        <xs:sequence>
+            <xs:element name="matiere" type="matiereT"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="etudiantT">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="Prenom" type="xs:string"/>
+            <xs:element name="matieres" type="matieresT"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="rapport">
+        <xs:sequence>
+            <xs:element name="etudiant" type="etudiantT"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema> -->
+<!-- Shema version 2 -->

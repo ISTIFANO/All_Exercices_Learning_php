@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <link rel="stylesheet" href="..//style.css">
+    
+    <style>
+        .formulaire{
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lien">
+        <a href="./choix.php">Revenir a la page precedente</a>
+    </div>
+    <div class="formulaire">
+        <h1>Telechargement d image et recadrage</h1>
+        <form action="recadrer.php" method="POST" enctype="multipart/form-data">
+           <input type="file" name="image" accept="image/*" required><br>
+           <input type="number" name="x" required><br><br>
+        <input type="number" name="y" required><br><br>
+           <input type="number" name="largeur" required><br><br>
+         <input type="number" name="hauteur" required><br><br>
+            <input type="submit" value="Telecharger et recadrer">
+        </form>
+    </div>
+</body>
+</html>

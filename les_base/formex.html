@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+     margin: 9px;
+     padding: ;
+
+        }
+        #parag{
+            padding-bottom: none;
+
+        
+        }
+        .formd{
+border: 3px solid;
+border-color: brown;
+
+
+        }
+        #form2{
+            border: 3px solid;
+border-color: brown;
+margin: 7px;;
+
+        }
+        #form3{
+            border: 3px solid;
+border-color: brown;
+margin: 15px;;
+
+        }
+        #position{
+     display: block;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="formd">
+        <h3 id="parag">vos cordonnees</h3>
+        <form action="" method="">
+            <label for="text">Nom</label>
+            <input type="text"id="namee" onblur="Name()" oninput="" name="name"><br>
+            <label for="email">email</label>
+           <input type="email" name="email"><br>
+           <label for="number"   >telephone</label>
+            <input id="fNumber" onblur="numberf()" type="text">
+            <h3 id="parag">adress</h3>
+            <div id="form2">
+               
+                    <label for="nom">n de la maison</label>
+                    <input type="number" name="name"><br>
+                    <label for="text">cartier</label>
+                    <input type="text" name="name"><br>
+                    <label for="text">Ville</label>
+                    <input type="text" name="name"><br>
+                    <div id="form3">
+                       
+                            <label for="date">Ne(e)e le</label>
+                            <input type="date" name="date"><br>
+                            <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="x">homme</label><br>
+                            <input type="radio" id="vehicle2" name="DASX" >
+                            <label for="xs"> famme</label><br>
+                    
+                                <select name="maroc" id="">
+                                   <option value="maroc">maroc</option>
+                                   <option value="maroc">maroc</option>
+                                   <option value="maroc">maroc</option>
+                                </select>
+                                <h3 id="parag">vos goets</h3>
+                                    <div id="form3">
+                                   
+                                         
+                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                            <label for="x">personne</label><br>
+                                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                            <label for="xs"> poire</label><br>
+                                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                            <label for="xs"> sectzD</label><br>
+                                            <TExtarea>decrivez vos ...</TExtarea>
+                                            <h3 id="parag">vos cordonnees</h3>
+                                        <div id="form3" >
+                                            <div id="position"> <button>parcourir</button>
+                                             <p>aucun fichier seletionne</p></div>
+                             <button>effacer</button>
+                            <button >envoyer</button></div>
+
+                                        </div>
+                                </div>
+                            
+                    </div>
+            </div>
+
+
+    </div>
+</form>
+<script>
+
+function validateEmail(email) {
+  const regex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  return regex.test(email);
+}
+
+function numberf() {
+    var p2 = document.getElementById("fNumber").value;
+    const regex = /^0[0-9]{9}$/;
+
+    if (regex.test(p2)) {
+        alert('Valid');
+        p2.style.borderColor = "red";
+        p2.style.color = "red";
+    } else {
+        alert('Invalid');
+    }
+}
+
+
+  function Name() {
+    var name2 = document.getElementById("namee").value;
+    const regex = /^[a-zA-Z\s']+$/;
+
+    if (regex.test(name2)) {
+        alert('Valid m');
+    } else {
+        alert('Invalid m');
+    }
+}
+
+
+
+
+</script>
+</body>
+</html>

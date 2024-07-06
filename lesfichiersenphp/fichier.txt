@@ -1,0 +1,1 @@
+writing data in to file_put_contents()

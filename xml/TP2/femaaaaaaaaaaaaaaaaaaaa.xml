@@ -1,0 +1,16 @@
+<xs:complexType name="prixtype" >
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+              <xs:attribute name="unit" type="xs:string" use="required"/>
+            </xs:extension>
+          </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="produittype" mixed="true">
+        <xs:sequence>
+            <xs:element name="idProduit" type="xs:integer"/>
+            <xs:element name="designation" type="xs:string"/>
+            <xs:element name="conditionnement" type="xs:string"/>
+            <xs:element name="prix" type="prixtype"/>
+            <xs:element name="photo" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>

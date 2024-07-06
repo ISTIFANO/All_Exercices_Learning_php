@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="auteur">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="prenom" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="illustratur">
+            <xs:sequence>
+                <xs:element name="nom" type="xs:string"/>
+                <xs:element name="prenom" type="xs:string"/>
+              </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="auteurs">
+                <xs:sequence>
+                    <xs:element name="auteur" type="auteur"/>
+                  </xs:sequence>
+                </xs:complexType>
+                <xs:complexType name="DB">
+                    <xs:sequence>
+                        <xs:element name="resume" type="xs:string"/>
+                        <xs:element name="date" type="xs:date"/>
+                        <xs:element name="sous_titre" type="xs:string"/>
+                        <xs:element name="couverture" type="xs:string"/>
+                      </xs:sequence>
+                      <xs:attribute name="numero" type="xs:integer"/>
+                    </xs:complexType>
+            <xs:complexType name="SDB">
+                <xs:sequence>
+                    <xs:element name="DB" type="DB"/>
+                    <xs:element name="titre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <!-- 1 titre -->
+                  </xs:sequence>
+                </xs:complexType>
+                <xs:complexType name="SDBs">
+                    <xs:sequence>
+                        <xs:element name="SDB" type="SDB"/>
+
+                      </xs:sequence>
+                    </xs:complexType>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+</xs:schema>

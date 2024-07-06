@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="traitement_ajout_vol.php" method="post">
+        Numero de vol : <input type="text" name="nv" required><br><br>
+        Numero de pilote : <input type="text" name="np" required><br><br>
+        Numero d'avion : <input type="text" name="na" required><br><br>
+        Ville de depart : <input type="text" name="vd" required><br><br>
+        Ville d'arrivee : <input type="text" name="va" required><br><br>
+        Heure de depart : <input type="text" name="hd" required placeholder="Ex aaaa-mm-jj hh:mm:ss"><br><br>
+        Heure d'arrivee : <input type="text" name="ha" required placeholder="Ex aaaa-mm-jj hh:mm:ss"><br><br>
+        <input type="submit" value="Inserer">
+    </form><br>
+    <form action="liste_vols.php"><input type="submit" value="Afficher la liste"></form>
+</body>
+</html>

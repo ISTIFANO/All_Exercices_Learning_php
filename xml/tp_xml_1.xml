@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8">
+<persones>
+    <personne>
+<nom>alan</nom>
+<phone>3127786</phone>
+<emai>alan@abc.com
+</emai>
+
+    </personne>
+
+
+                                    <personne>
+                                        <nom>Sara</nom>
+                                        <phone>2136877</phone>
+                                        <emai>Sara@abc.com
+                                        </emai>
+                                        
+                                            </personne>
+        
+            <personne>
+                <nom>fred</nom>
+                <phone>7786312</phone>
+                <emai>fd@ac.uk
+
+                </emai>
+                
+                    </persones>
+                
+                        
+
+
+
+
+
+
+
+
+
+
+</Lespersonnes>

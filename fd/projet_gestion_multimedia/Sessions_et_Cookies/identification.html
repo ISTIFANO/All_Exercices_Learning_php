@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            width:400px;
+            margin: auto;
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+        }
+        input{
+            margin-top: 20px;
+            width: 200px;
+            height:20px;
+        }
+        input[type="submit"]{
+            width: 100px;
+            height: 30px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <h1><em>Plateforme de gestion de contenu multimédia</em></h1>
+        <pre>
+        <form action="identification.php" method="post">
+            <input type="text" name="nom" placeholder="Votre Nom" required />
+            <input type="text" name="prenom" placeholder="Votre prenom" required />
+            <input type="email" name="email" placeholder="Votre email" required />
+            <input type="submit" value="Connexion"/>
+        </form>
+        </pre>
+    </div>
+</body>
+</html>

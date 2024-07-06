@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xsl_copy.xsl" type="text/css"?>
+<bookstore>
+  <book>
+    <title>Empire Burlesque</title>
+    <author>Bob Dylan</author>
+    <genre>USA</genre>
+    <price>10.90</price>
+  
+  </book>
+  <book>
+    <title>Hide your heart</title>
+    <author>Bonnie Tyler</author>
+    <genre>UK</genre>
+    <price>9.90</price>
+  </book>
+  <book>
+    <title>Greatest Hits</title>
+    <author>Dolly Parton</author>
+    <genre>USA</genre>
+    <price>9.90</price>
+  
+  </book>
+</bookstore>
